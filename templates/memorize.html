@@ -6,6 +6,7 @@
             <div class="btn-group btn-group-lg" role="group" aria-label="card type">
                 <a href="{{ url_for('general') }}" class="btn btn-{{ "primary" if card_type == "general" else "default" }}">General</a>
                 <a href="{{ url_for('code') }}" class="btn btn-{{ "primary" if card_type == "code" else "default" }}">Code</a>
+                <a href="{{ url_for('ml') }}" class="btn btn-{{ "primary" if card_type == "ml" else "default" }}">ML</a>
             </div>
         </div>
     </div>

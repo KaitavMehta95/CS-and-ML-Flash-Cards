@@ -202,7 +202,6 @@ def memorize(card_type, card_id):
     elif card_type == "code":
         type = 2
     elif card_type == "ml":
-        print('____________IN CARD TYPE ____')
         type = 3   
     else:
         return redirect(url_for('cards'))
